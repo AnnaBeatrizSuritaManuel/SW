@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+</head>
+<body>
+    <h1>Exercício 04 - Dados Cadastrais - Bandeira Cartão de Crédito</h1>
+    <form action="exe04.php" method="post">
+        <p> Digite seu nome: <input type="text" name="cxnome" required></p>
+        <p>Digite seu email: <input type="email" name="cxemail" required></p>
+        <p>Digite sua data de nascimento: <input type="date" name="cxdata" required></p>
+        <p>Bandeira do cartão de crédito: <select name="cxbandeira" >
+          <option value="Visa">Visa</option>
+          <option value="Mastercard">Mastercard</option>
+          <option value="Hipercard">Hipercard</option>
+          <option value="Elo">Elo</option>
+        </select></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
